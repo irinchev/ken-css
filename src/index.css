@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "./components/button/button.css";
+@import "tailwindcss/utilities";
+
+.k-full {
+    @apply w-full;
+    @apply h-full;
+    @apply p-0;
+    @apply m-0;
+}
