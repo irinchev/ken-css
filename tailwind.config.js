@@ -1,5 +1,9 @@
+const colors = require("./src/theme/colors");
+
 module.exports = {
-    theme: {},
+    theme: {
+			colors: colors
+		},
     variants: {},
     plugins: [],
 };

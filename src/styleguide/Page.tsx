@@ -27,7 +27,7 @@ export class Page extends React.Component<PageProps, PageState> {
 		//const { quantities } = this.state;
 
 		return (
-			<div className="k-full flex flex-col">
+			<div className="flex-1 flex flex-col">
 				<h1 className="text-2xl uppercase font-black text-gray-500 border-b border-green-300 shadow-lg">
 					{title}
 				</h1>

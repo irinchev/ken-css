@@ -1,0 +1,4 @@
+.transition-in {
+    transition: background .2s, border .2s, box-shadow .2s, color .2s;
+}
+

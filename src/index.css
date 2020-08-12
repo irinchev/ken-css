@@ -2,6 +2,7 @@
 @import "tailwindcss/components";
 @import "./components/button/button.css";
 @import "tailwindcss/utilities";
+@import "./common/utilities.css";
 
 .k-full {
     @apply w-full;

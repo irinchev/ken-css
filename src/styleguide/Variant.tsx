@@ -36,13 +36,13 @@ export class Variant extends React.Component<VariantProps, VariantState> {
 					</legend>
 					<div className="py-4">
 						<div className="text-gray-600 font-medium uppercase mb-2">Markup</div>
-						<SyntaxHighlighter
-							className="rounded"
-							showLineNumbers={true}
-							language="html"
-							style={c.tomorrowNightBlue}>
-							{RDS.renderToStaticMarkup(children)}
-						</SyntaxHighlighter>
+							<SyntaxHighlighter
+								className="rounded w-4/5"
+								showLineNumbers={true}
+								language="html"
+								style={c.tomorrowNightBlue}>
+								{RDS.renderToStaticMarkup(children)}
+							</SyntaxHighlighter>
 					</div>
 					<div className="py-4">
 						<div className="text-gray-600 font-medium uppercase mb-2">Preview</div>
